@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+    padding: 40px 40px 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+    width: 30%;
+}
+
+#search-wrapper input {
+    width: 100%;
+    padding: 0 1em;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+.topbar-icons ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+}
+
+#mic-icon ion-icon {
+    font-size: 2em;
+    padding: 5.2px 0 0 0;
+}
+
+#search-btn {
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+.thumb-block {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 0 0 40px 0;
+}
+
+.thumb-up {
+    cursor: pointer;
+}
+
+.thumb-down {
+    display: flex;
+    padding: 1em 0;
+}
+
+.ec-logo {
+    cursor: pointer;
+    width: 3.5vw;
+    height: auto;
+}
+
+.thumb-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    padding-top: 5px;
+}
+
+.thumb-title p {
+    margin: 0;
+    font-size: 1.3vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.thumb-description p {
+    margin: 0;
+    font-size: 0.9vw;
+    cursor: pointer;
+}
+
+.sidebar-icon:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10%;
+}
+
+#menu-icon:hover {
+    border-radius: 100% !important;
+}
